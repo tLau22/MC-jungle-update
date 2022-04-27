@@ -1,0 +1,10 @@
+{"type":"crafting_shapeless",
+"ingredients": [
+	{"item":"apes:banana_block"}
+	],
+	"result":{
+	"item":"apes:banana",
+	"count":3
+	}
+
+}
