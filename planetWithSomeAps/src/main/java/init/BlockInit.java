@@ -17,7 +17,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class Blockinit {
+public class BlockInit {
 	public static final DeferredRegister<Block> Blocks = DeferredRegister.create(ForgeRegistries.BLOCKS, Apesmod.MOD_ID);
 	public static final DeferredRegister<Item> Items = ItemInit.Items;
 	

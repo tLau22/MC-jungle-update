@@ -1,7 +1,7 @@
 package com.tlau.apes;
 
 
-import init.Blockinit;
+import init.BlockInit;
 import init.ItemInit;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -29,7 +29,7 @@ public class Apesmod {
 		public Apesmod() {
 			IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 			ItemInit.Items.register(bus);
-			Blockinit.Blocks.register(bus);
+			BlockInit.Blocks.register(bus);
 			MinecraftForge.EVENT_BUS.register(this);
 		}
 }
